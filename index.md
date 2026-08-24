@@ -1,6 +1,6 @@
 ## Course Webpage for Compilers (P423, P523, E313, and E513)
 
-Indiana University, Fall 2025
+Indiana University, Fall 2026
 
 
 High-level programming languages like Racket and Python make it easier
@@ -48,11 +48,10 @@ github:
 **Lecture:** Tuesdays and Thursdays 2:20-3:35pm, Informatics Building
   (Myles Brand Hall), Room I 107.
 
-**Office hours**
+**Office Hours**
 
-* Jeremy Siek (jsiek): Mondays 3:00pm-4:00pm, Fridays 4-5pm, in Luddy 3014.
-* Darshal Shetty (dcshetty): Mondays 4:00-6:00pm, in Luddy 3014.
-* Shulin Gonsalves (shugons): Mondays 12-1pm, Tuesdays 4-5pm, in Luddy 3014.
+* Jeremy Siek (jsiek): TBD
+* Emeka Nkurumeh (emnkuru): TBD
 
 
 **Topics:**
@@ -123,54 +122,57 @@ In contrast, for quizzes and exams, students are asked to work
 alone. The quizzes and exams are closed book.
 
 
-**Late assignment policy:** Assignments may be turned in up to one
+**Late Assignment Policy:** Assignments may be turned in up to one
 week late with a penalty of 10%.
 
 
 **Slack Chat/Messaging:**
 
-  [Workspace](https://compilers-fall-2025.slack.com) 
+  TBA
+
+  <!-- [Workspace](https://compilers-fall-2025.slack.com) 
     ([signup](https://join.slack.com/t/compilers-fall-2025/shared_invite/zt-3c26k54om-PJIl7jxoV_ZpHlVIb_MMvw)
-  using your iu email address).
+  using your iu email address). -->
 
 **Schedule**
 
 Day     | Lecture Topic              | Assignment Due
 --------|----------------------------|----------------
-Aug. 26 | [Introduction](https://docs.google.com/presentation/d/13jmEAwqD7naNAj0c2IsF0tDhgMyQH-tBW9sZeRgzBt8/edit?usp=sharing)               |
-Aug. 28 | [From Lvar to x86](https://docs.google.com/presentation/d/1KUlWTAvdcKtZNOST9ITpmiOe34lD2DFsycH5oT2oMuU/edit?usp=sharing) |
-Sep. 2 | Example Compilation from Lvar to x86 in [Racket](./example-var-73.md) and [Python](./python-var-73.md) |
-Sep. 4 | [Register Allocation, Introduction and Liveness](https://docs.google.com/presentation/d/1jL4M6G6DDnfqOPsCab9_6k7PcV_wRBd4p9Xn2LzobOE/edit?usp=sharing) |
-Sep. 9 | [Register Allocation: graph coloring](https://docs.google.com/presentation/d/1qPKUGZnqh6ggfP5_emHVJhSTyPRI0iD02jRTdB9mbwo/edit?usp=sharing) | Integers and Variables, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1913) or [Python](https://autograder.luddy.indiana.edu/web/project/1912) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/1950) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/1949))
-Sep. 11 | Code Review: Integers and Variables
-Sep. 16 | [L_If language, type checking, and x86_If](https://docs.google.com/presentation/d/1ZJWJN8mAPS3NpTBkbkY8xauZtIGbZdCwTovtN1a4gUo/edit?usp=sharing) | Integers and Variables, late deadline
-Sep. 18 | [Conditionals and Explicate Control](https://docs.google.com/presentation/d/1OALjNzmyLNt_Yg3eV_xjLx7ZxQ_8q2fLLi0I9nJjX9I/edit?usp=sharing),  [Conditionals: Select Instr., Reg. Alloc., Opt. Jumps](https://docs.google.com/presentation/d/1Zcq1OpvmiMcHDkSZ0qjF2mdYNaov0t5R4qF0h66ryV8/edit?usp=sharing)
-Sep. 23 | [Loops and Dataflow Analysis](https://docs.google.com/presentation/d/1RPT6wjE_MhMDPMet0nee5dv7WzaHD52shwSpUE84edM/edit?usp=sharing) | Register Allocation, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1915) or [Python](https://autograder.luddy.indiana.edu/web/project/1914) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2023) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2022))
-Sep. 25 | Code Review: Register Allocation
-Sep. 30 | [Loops: RCO, Explicate, Challenge](https://docs.google.com/presentation/d/18cN5P4pEuDds5U40Hqa6WDP-LdoyYBg2RCRML37QL5k/edit?usp=sharing) | Register Allocation, late deadline
-Oct. 2  | [Tuples and Garbage Collection](https://docs.google.com/presentation/d/1LTyqurU5c1MfzBJAjuuLJKZYAYqyjLggaZn-MIV4ocg/edit?usp=sharing)
-Oct. 7 | [Static Single Assignment](https://docs.google.com/presentation/d/1z7D52QoJ35say9kY8VuuZWlY3yZu5HxwVv_gLcdk_Jw/edit?usp=sharing) | Booleans and Conditionals, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1908) or [Python](https://autograder.luddy.indiana.edu/web/project/1907) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2048) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2047))
-Oct. 9 | Code Review: Conditionals
-Oct. 14 | [Tuples and GC, cont'd](https://docs.google.com/presentation/d/1SYAsDrtEP0aY9R18oibuZvJkhVzeHlfthjR1_Kii6nM/edit?usp=sharing) | Booleans and Conditionals, late deadline
-Oct. 16 | [Arrays, Structs, Generational GC](https://docs.google.com/presentation/d/1GHF-JTvsnJeOSBhAn9m1HHFVpRekVPO0QHSbkbg4vX8/edit?usp=sharing)
-Oct. 21 | Review for Midterm Exam | Loops, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1916) or [Python](https://autograder.luddy.indiana.edu/web/project/1904) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2054) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2055))
-Oct. 23 | **Midterm Exam** in class
-Oct. 28 | [Compiling Functions to x86](https://docs.google.com/presentation/d/12AD6drC7k9_7Ldk8yN8HWI6MBmzqfM5ec0pSP9pj_po/edit?usp=sharing) | Loops, late deadline 
-Oct. 30 | Code Review: Loops
-Nov. 4  | Compiling Functions, cont'd | Tuples, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1909) or [Python](https://autograder.luddy.indiana.edu/web/project/1906) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2080) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2079))
-Nov. 6  | [Lexically Scoped Functions](https://docs.google.com/presentation/d/1C33rWgJFXUv4tvhEnxzNhsJCc0L6t1BMWDaswuCL47w/edit?usp=sharing)
-Nov. 11 | [Dynamic Typing](https://docs.google.com/presentation/d/1vhGJ54-ZBcW7GsS2nLhaqkAkFRDGdMRGk-Onv_jQYmI/edit?usp=sharing) | Tuples, late deadline
-Nov. 13 | Code Review: Tuples
-Nov. 18 | [Gradual Typing](https://docs.google.com/presentation/d/17AfL6HTSGPdiLxGOs_wSRc0i5xoLF1QYPL-A7i1U_Ag/edit?usp=sharing) | Functions, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1910) or [Python](https://autograder.luddy.indiana.edu/web/project/1905)
-Nov. 20 | [Generics](https://docs.google.com/presentation/d/1772Bs1E1XPF2duXquzGMEcjFt_a5Ssa0DgcureURfgI/edit?usp=sharing)
-Nov. 21 | | [Proposal for Final Project](./final-project-proposal.md)
-Nov. 24 - Nov. 28 | **Thanksgiving Break**
-Dec. 2 | [Objects](https://docs.google.com/presentation/d/1quAiJTiIoYNlgJka8nLl3GchhDPQdoXLK6kcEzEDGVo/edit?usp=sharing) | Functions, late deadline
-Dec. 4 | Procedure Inlining
-Dec. 9 | Code Review: Functions
-Dec. 11 | Review for Final Exam
+Aug. 25 | [Introduction](https://docs.google.com/presentation/d/13jmEAwqD7naNAj0c2IsF0tDhgMyQH-tBW9sZeRgzBt8/edit?usp=sharing)               |
+Aug. 27 | [From Lvar to x86](https://docs.google.com/presentation/d/1KUlWTAvdcKtZNOST9ITpmiOe34lD2DFsycH5oT2oMuU/edit?usp=sharing) |
+
+<!-- Sep. 1 | Example Compilation from Lvar to x86 in [Racket](./example-var-73.md) and [Python](./python-var-73.md) |
+Sep. 3 | [Register Allocation, Introduction and Liveness](https://docs.google.com/presentation/d/1jL4M6G6DDnfqOPsCab9_6k7PcV_wRBd4p9Xn2LzobOE/edit?usp=sharing) |
+Sep. 8 | [Register Allocation: graph coloring](https://docs.google.com/presentation/d/1qPKUGZnqh6ggfP5_emHVJhSTyPRI0iD02jRTdB9mbwo/edit?usp=sharing) | Integers and Variables, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1913) or [Python](https://autograder.luddy.indiana.edu/web/project/1912) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/1950) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/1949))
+Sep. 10 | Code Review: Integers and Variables
+Sep. 15 | [L_If language, type checking, and x86_If](https://docs.google.com/presentation/d/1ZJWJN8mAPS3NpTBkbkY8xauZtIGbZdCwTovtN1a4gUo/edit?usp=sharing) | Integers and Variables, late deadline
+Sep. 17 | [Conditionals and Explicate Control](https://docs.google.com/presentation/d/1OALjNzmyLNt_Yg3eV_xjLx7ZxQ_8q2fLLi0I9nJjX9I/edit?usp=sharing),  [Conditionals: Select Instr., Reg. Alloc., Opt. Jumps](https://docs.google.com/presentation/d/1Zcq1OpvmiMcHDkSZ0qjF2mdYNaov0t5R4qF0h66ryV8/edit?usp=sharing)
+Sep. 22 | [Loops and Dataflow Analysis](https://docs.google.com/presentation/d/1RPT6wjE_MhMDPMet0nee5dv7WzaHD52shwSpUE84edM/edit?usp=sharing) | Register Allocation, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1915) or [Python](https://autograder.luddy.indiana.edu/web/project/1914) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2023) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2022))
+Sep. 24 | Code Review: Register Allocation
+Sep. 29 | [Loops: RCO, Explicate, Challenge](https://docs.google.com/presentation/d/18cN5P4pEuDds5U40Hqa6WDP-LdoyYBg2RCRML37QL5k/edit?usp=sharing) | Register Allocation, late deadline
+Oct. 1  | [Tuples and Garbage Collection](https://docs.google.com/presentation/d/1LTyqurU5c1MfzBJAjuuLJKZYAYqyjLggaZn-MIV4ocg/edit?usp=sharing)
+Oct. 6 | [Static Single Assignment](https://docs.google.com/presentation/d/1z7D52QoJ35say9kY8VuuZWlY3yZu5HxwVv_gLcdk_Jw/edit?usp=sharing) | Booleans and Conditionals, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1908) or [Python](https://autograder.luddy.indiana.edu/web/project/1907) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2048) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2047))
+Oct. 8 | Code Review: Conditionals
+Oct. 13 | [Tuples and GC, cont'd](https://docs.google.com/presentation/d/1SYAsDrtEP0aY9R18oibuZvJkhVzeHlfthjR1_Kii6nM/edit?usp=sharing) | Booleans and Conditionals, late deadline
+Oct. 15 | [Arrays, Structs, Generational GC](https://docs.google.com/presentation/d/1GHF-JTvsnJeOSBhAn9m1HHFVpRekVPO0QHSbkbg4vX8/edit?usp=sharing)
+Oct. 20 | Review for Midterm Exam | Loops, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1916) or [Python](https://autograder.luddy.indiana.edu/web/project/1904) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2054) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2055))
+Oct. 22 | **Midterm Exam** in class
+Oct. 27 | [Compiling Functions to x86](https://docs.google.com/presentation/d/12AD6drC7k9_7Ldk8yN8HWI6MBmzqfM5ec0pSP9pj_po/edit?usp=sharing) | Loops, late deadline 
+Oct. 29 | Code Review: Loops
+Nov. 3  | Compiling Functions, cont'd | Tuples, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1909) or [Python](https://autograder.luddy.indiana.edu/web/project/1906) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2080) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2079))
+Nov. 5  | [Lexically Scoped Functions](https://docs.google.com/presentation/d/1C33rWgJFXUv4tvhEnxzNhsJCc0L6t1BMWDaswuCL47w/edit?usp=sharing)
+Nov. 10 | [Dynamic Typing](https://docs.google.com/presentation/d/1vhGJ54-ZBcW7GsS2nLhaqkAkFRDGdMRGk-Onv_jQYmI/edit?usp=sharing) | Tuples, late deadline
+Nov. 12 | Code Review: Tuples
+Nov. 17 | [Gradual Typing](https://docs.google.com/presentation/d/17AfL6HTSGPdiLxGOs_wSRc0i5xoLF1QYPL-A7i1U_Ag/edit?usp=sharing) | Functions, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1910) or [Python](https://autograder.luddy.indiana.edu/web/project/1905)
+Nov. 19 | [Generics](https://docs.google.com/presentation/d/1772Bs1E1XPF2duXquzGMEcjFt_a5Ssa0DgcureURfgI/edit?usp=sharing)
+Nov. 20 | | [Proposal for Final Project](./final-project-proposal.md)
+Nov. 23 - Nov. 27 | **Thanksgiving Break**
+Dec. 1 | [Objects](https://docs.google.com/presentation/d/1quAiJTiIoYNlgJka8nLl3GchhDPQdoXLK6kcEzEDGVo/edit?usp=sharing) | Functions, late deadline
+Dec. 3 | Procedure Inlining
+Dec. 8 | Code Review: Functions
+Dec. 10 | Review for Final Exam
 Dec. 12 | | Final Project (no late submissions). See the canvas assignment for details.
-Dec. 16 | **Final Exam** 12:40-2:40 pm
+Dec. 15 | **Final Exam** 12:40-2:40 pm -->
 
 
 
@@ -258,7 +260,7 @@ student conduct and wellness concerns to the Division of Student
 Affairs using an online form located at
 https://studentaffairs.indiana.edu/dean-students/student-concern/index.shtml.
 
-**Students needing additional financial or other assistance.**
+**Students Needing Additional Financial or Other Assistance.**
 
 The Student Advocates Office (SAO) can help students work through
 personal and academic problems as well as financial difficulties and
