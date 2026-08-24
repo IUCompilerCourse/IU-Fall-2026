@@ -1,0 +1,315 @@
+<h2 id="course-webpage-for-compilers-p423-p523-e313-and-e513">Course
+Webpage for Compilers (P423, P523, E313, and E513)</h2>
+<p>Indiana University, Fall 2025</p>
+<p>High-level programming languages like Racket and Python make it
+easier to program compared to low-level languages such as x86 assembly
+code. But how do high-level languages work? There’s a big gap between
+them and machine instructions for modern computers. In this class you
+learn how to translate Racket or Python programs (your choice!) all the
+way to x86 assembly language.</p>
+<p>Traditionally, compiler courses teach one phase of the compiler at a
+time, such as parsing, semantic analysis, and register allocation. The
+problem with that approach is it is difficult to understand how the
+whole compiler fits together and why each phase is designed the way it
+is. Instead, each week we implement a progressively larger subset of the
+input language. The very first subset is a tiny language of integer
+arithmetic, and by the time we are done the language includes
+first-class functions.</p>
+<p><strong>Prerequisites:</strong> Fluency in Racket or Python is highly
+recommended as students will do a lot of programming in one of those
+languages. Prior knowledge of an assembly language helps, but is not
+required.</p>
+<p><strong>Textbook: Essentials of Compilation: An Incremental Approach
+in Racket/Python</strong></p>
+<ul>
+<li><p>The Racket version of the textbook for the course is available at
+the IU bookstore and from many book sellers, links to those <a
+href="https://mitpress.mit.edu/9780262047760/essentials-of-compilation/">here</a>.
+The PDF is also available for free <a
+href="https://www.dropbox.com/s/ktdw8j0adcc44r0/book.pdf?dl=1">here</a>.</p></li>
+<li><p>The Python version of the textbook for the course is available at
+the IU bookstore and from many book sellers, links to those <a
+href="https://mitpress.mit.edu/9780262048248/essentials-of-compilation/">here</a>.
+The PDF is also available for free <a
+href="https://www.dropbox.com/s/mfxtojk4yif3toj/python-book.pdf?dl=1">here</a>.</p></li>
+</ul>
+<p>If you have suggestions for improvement, please either send an email
+to Jeremy or, even better, make edits to a branch of the book and
+perform a pull request. The book is at the following location on
+github:</p>
+<pre><code>https://github.com/IUCompilerCourse/Essentials-of-Compilation</code></pre>
+<p><strong>Lecture:</strong> Tuesdays and Thursdays 2:20-3:35pm,
+Informatics Building (Myles Brand Hall), Room I 107.</p>
+<p><strong>Office hours</strong></p>
+<ul>
+<li>Jeremy Siek (jsiek): Mondays 3:00pm-4:00pm, Fridays 4-5pm, in Luddy
+3014.</li>
+<li>Darshal Shetty (dcshetty): Mondays 4:00-6:00pm, in Luddy 3014.</li>
+<li>Shulin Gonsalves (shugons): Mondays 12-1pm, Tuesdays 4-5pm, in Luddy
+3014.</li>
+</ul>
+<p><strong>Topics:</strong></p>
+<ul>
+<li><p>Instruction Selection</p></li>
+<li><p>Register Allocation</p></li>
+<li><p>Static type checking</p></li>
+<li><p>Conditional control flow</p></li>
+<li><p>Mutable data</p></li>
+<li><p>Garbage collection</p></li>
+<li><p>Procedures and calling conventions</p></li>
+<li><p>First-class functions and closure conversion</p></li>
+<li><p>Dynamic typing</p></li>
+<li><p>Generics</p></li>
+</ul>
+<p><strong>Grading:</strong></p>
+<p>Course grades are based on the following items. For the weighting,
+see the Canvas panel on the right-hand side of this web page. Grading
+will take into account any technology problems that arrise, i.e., you
+won’t fail the class because your internet went out.</p>
+<ul>
+<li>Assignments (40%)</li>
+<li>Midterm Exam (25%)</li>
+<li>Final Exam (35%)</li>
+</ul>
+<p><strong>Assignments:</strong></p>
+<p>Organize into teams of 2-4 students. Assignments will be due
+bi-weekly on Mondays at 11:59pm. Teams that include one or more graduate
+students are required to complete one challenge exercise per
+assignment.</p>
+<p>Assignment descriptions are posted on Canvas. Turn in your
+assignments by submitting your code to the autograder. There is a Racket
+and Python version of each assignment. Submit your <code>compiler</code>
+file, either <code>compiler.rkt</code> or <code>compiler.py</code>
+depending on the language you are using.</p>
+<p>Assignments will be graded based on how many test cases they succeed
+on. Partial credit will be given for each “pass” of the compiler. Some
+of the tests are in the public support code (see Resources below). The
+testing will be done on a linux (ubuntu) machine. The testing will
+include both new tests and all of the tests from prior assignments.</p>
+<p>You may request feedback on your assignments prior to the due date.
+Just submit your work to the autograder and send us email.</p>
+<p>Students are responsible for understanding the entire assignment and
+all of the code that their team produces. The midterm and final exam are
+designed to test a student’s understanding of the assignments.</p>
+<p>Students are free to discuss and get help on the assignments from
+anyone or anywhere. When posting questions on Slack, it is OK to post
+your code.</p>
+<p>In contrast, for quizzes and exams, students are asked to work alone.
+The quizzes and exams are closed book.</p>
+<p><strong>Late assignment policy:</strong> Assignments may be turned in
+up to one week late with a penalty of 10%.</p>
+<p><strong>Slack Chat/Messaging:</strong></p>
+<p><a href="https://compilers-fall-2025.slack.com">Workspace</a> (<a
+href="https://join.slack.com/t/compilers-fall-2025/shared_invite/zt-3c26k54om-PJIl7jxoV_ZpHlVIb_MMvw">signup</a>
+using your iu email address).</p>
+<p><strong>Schedule</strong></p>
+<p>Day | Lecture Topic | Assignment Due Aug. 26 | <a
+href="https://docs.google.com/presentation/d/13jmEAwqD7naNAj0c2IsF0tDhgMyQH-tBW9sZeRgzBt8/edit?usp=sharing">Introduction</a>
+| Aug. 28 | <a
+href="https://docs.google.com/presentation/d/1KUlWTAvdcKtZNOST9ITpmiOe34lD2DFsycH5oT2oMuU/edit?usp=sharing">From
+Lvar to x86</a> | Sep. 2 | Example Compilation from Lvar to x86 in <a
+href="./example-var-73.md">Racket</a> and <a
+href="./python-var-73.md">Python</a> | Sep. 4 | <a
+href="https://docs.google.com/presentation/d/1jL4M6G6DDnfqOPsCab9_6k7PcV_wRBd4p9Xn2LzobOE/edit?usp=sharing">Register
+Allocation, Introduction and Liveness</a> | Sep. 9 | <a
+href="https://docs.google.com/presentation/d/1qPKUGZnqh6ggfP5_emHVJhSTyPRI0iD02jRTdB9mbwo/edit?usp=sharing">Register
+Allocation: graph coloring</a> | Integers and Variables, submit in <a
+href="https://autograder.luddy.indiana.edu/web/project/1913">Racket</a>
+or <a
+href="https://autograder.luddy.indiana.edu/web/project/1912">Python</a>
+(see also, <a
+href="https://autograder.luddy.indiana.edu/web/project/1950">Racket
+challenge</a> or <a
+href="https://autograder.luddy.indiana.edu/web/project/1949">Python
+challenge</a>) Sep. 11 | Code Review: Integers and Variables Sep. 16 |
+<a
+href="https://docs.google.com/presentation/d/1ZJWJN8mAPS3NpTBkbkY8xauZtIGbZdCwTovtN1a4gUo/edit?usp=sharing">L_If
+language, type checking, and x86_If</a> | Integers and Variables, late
+deadline Sep. 18 | <a
+href="https://docs.google.com/presentation/d/1OALjNzmyLNt_Yg3eV_xjLx7ZxQ_8q2fLLi0I9nJjX9I/edit?usp=sharing">Conditionals
+and Explicate Control</a>, <a
+href="https://docs.google.com/presentation/d/1Zcq1OpvmiMcHDkSZ0qjF2mdYNaov0t5R4qF0h66ryV8/edit?usp=sharing">Conditionals:
+Select Instr., Reg. Alloc., Opt. Jumps</a> Sep. 23 | <a
+href="https://docs.google.com/presentation/d/1RPT6wjE_MhMDPMet0nee5dv7WzaHD52shwSpUE84edM/edit?usp=sharing">Loops
+and Dataflow Analysis</a> | Register Allocation, submit in <a
+href="https://autograder.luddy.indiana.edu/web/project/1915">Racket</a>
+or <a
+href="https://autograder.luddy.indiana.edu/web/project/1914">Python</a>
+(see also, <a
+href="https://autograder.luddy.indiana.edu/web/project/2023">Racket
+challenge</a> or <a
+href="https://autograder.luddy.indiana.edu/web/project/2022">Python
+challenge</a>) Sep. 25 | Code Review: Register Allocation Sep. 30 | <a
+href="https://docs.google.com/presentation/d/18cN5P4pEuDds5U40Hqa6WDP-LdoyYBg2RCRML37QL5k/edit?usp=sharing">Loops:
+RCO, Explicate, Challenge</a> | Register Allocation, late deadline
+Oct. 2 | <a
+href="https://docs.google.com/presentation/d/1LTyqurU5c1MfzBJAjuuLJKZYAYqyjLggaZn-MIV4ocg/edit?usp=sharing">Tuples
+and Garbage Collection</a> Oct. 7 | … | Booleans and Conditionals Oct. 9
+| Code Review: Conditionals Oct. 14 | <a
+href="https://docs.google.com/presentation/d/1SYAsDrtEP0aY9R18oibuZvJkhVzeHlfthjR1_Kii6nM/edit?usp=sharing">Tuples
+and GC, cont’d</a> | Booleans and Conditionals, late deadline Oct. 16 |
+<a
+href="https://docs.google.com/presentation/d/1GHF-JTvsnJeOSBhAn9m1HHFVpRekVPO0QHSbkbg4vX8/edit?usp=sharing">Arrays,
+Structs, Generational GC</a> Oct. 21 | Review for Midterm Exam | Loops
+Oct. 23 | <strong>Midterm Exam</strong> in class Oct. 28 | Code Review:
+Loops | Loops, late deadline Oct. 30 | <a
+href="https://docs.google.com/presentation/d/12AD6drC7k9_7Ldk8yN8HWI6MBmzqfM5ec0pSP9pj_po/edit?usp=sharing">Compiling
+Functions to x86</a> Nov. 4 | Compiling Functions, cont’d | Tuples
+Nov. 6 | Code Review: Tuples Nov. 11 | <a
+href="https://docs.google.com/presentation/d/1C33rWgJFXUv4tvhEnxzNhsJCc0L6t1BMWDaswuCL47w/edit?usp=sharing">Lexically
+Scoped Functions</a> | Tuples, late deadline Nov. 13 | <a
+href="https://docs.google.com/presentation/d/1vhGJ54-ZBcW7GsS2nLhaqkAkFRDGdMRGk-Onv_jQYmI/edit?usp=sharing">Dynamic
+Typing</a> Nov. 18 | <a
+href="https://docs.google.com/presentation/d/17AfL6HTSGPdiLxGOs_wSRc0i5xoLF1QYPL-A7i1U_Ag/edit?usp=sharing">Gradual
+Typing</a> | Functions Nov. 20 | Code Review: Functions Nov. 21 | | <a
+href="./final-project-proposal.md">Proposal for Final Project</a>
+Nov. 24 - Nov. 28 | <strong>Thanksgiving Break</strong> Dec. 2 | <a
+href="https://docs.google.com/presentation/d/1772Bs1E1XPF2duXquzGMEcjFt_a5Ssa0DgcureURfgI/edit?usp=sharing">Generics</a>
+| Functions, late deadline Dec. 4 | Objects Dec. 9 | Inlining Dec. 11 |
+Review for Final Exam Dec. 12 | | Final Project (no late submissions).
+See the canvas assignment for details. Dec. 16 | <strong>Final
+Exam</strong> 12:40-2:40 pm</p>
+<p><strong>Resources:</strong></p>
+<ul>
+<li>Practice exams:
+<ul>
+<li>Midterm from 2022: <a href="./2022-python-midterm.pdf">Python</a>,
+<a href="./2022-python-midterm-soln.pdf">Python with solutions</a>, <a
+href="./2022-racket-midterm.pdf">Racket</a>, <a
+href="./2022-racket-midterm-soln.pdf">Racket with solutions</a></li>
+<li>Final from 2022: <a href="./2022-python-final.pdf">Python</a>, <a
+href="./2022-python-final-soln.pdf">Python with solutions</a>, <a
+href="./2022-racket-final.pdf">Racket</a>, <a
+href="./2022-racket-final-soln.pdf">Racket with solutions</a></li>
+<li>Final from 2021: <a href="./2021-python-final.pdf">Python</a>, <a
+href="./2021-python-final-soln.pdf">Python with solutions</a>, <a
+href="./2021-racket-final.pdf">Racket</a>, <a
+href="./2021-racket-final-soln.pdf">Racket with solutions</a></li>
+</ul></li>
+<li>Lecture videos recorded from the <a
+href="https://iucompilercourse.github.io/IU-P423-P523-E313-E513-Fall-2020/">2020
+course</a>.</li>
+<li>Github repository for the support code and test suites
+<ul>
+<li>for <a
+href="https://github.com/IUCompilerCourse/public-student-support-code">Racket</a></li>
+<li>for <a
+href="https://github.com/IUCompilerCourse/python-student-support-code">Python</a></li>
+</ul></li>
+<li><a href="https://download.racket-lang.org/">Racket Download</a></li>
+<li><a href="https://docs.racket-lang.org/">Racket
+Documentation</a></li>
+<li><a href="https://www.python.org/downloads/">Python Download</a></li>
+<li><a href="https://docs.python.org/">Python Documentation</a></li>
+<li><a
+href="https://github.com/python/typeshed/blob/master/stdlib/_ast.pyi">Python
+ast module declarations</a></li>
+<li><a href="http://web.cecs.pdx.edu/~apt/cs491/x86-64.pdf">Notes on
+x86-64 programming</a></li>
+<li><a
+href="https://www.cs.cmu.edu/~fp/courses/15411-f13/misc/asm64-handout.pdf">x86-64
+Machine-Level Programming</a></li>
+<li><a
+href="http://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-manual-325462.pdf?_ga=1.200286509.2020252148.1452195021">Intel
+x86 Manual</a></li>
+<li><a
+href="https://software.intel.com/sites/default/files/article/402129/mpx-linux64-abi.pdf">System
+V Application Binary Interface</a></li>
+<li><a
+href="https://iu.instructure.com/courses/1735985/files/82131907/download?wrap=1">Uniprocessor
+Garbage Collection Techniques</a> by Wilson.</li>
+<li><a href="https://www.cs.indiana.edu/~dyb/pubs/inlining.pdf">Fast and
+Effective Procedure Inlining</a> by Waddell and Dybvig.</li>
+</ul>
+<p><strong>Bias-Based Incident Reporting.</strong></p>
+<p>Bias-based incident reports can be made by students, faculty and
+staff. Any act of discrimination or harassment based on race, ethnicity,
+religious affiliation, gender, gender identity, sexual orientation or
+disability can be reported through any of the options:</p>
+<ol type="1">
+<li><p>email biasincident@indiana.edu or incident@indiana.edu;</p></li>
+<li><p>call the Dean of Students Office at (812) 855-8188 or</p></li>
+<li><p>use the IU mobile App (m.iu.edu). Reports can be made
+anonymously.</p></li>
+</ol>
+<p><strong>Dean on Call.</strong></p>
+<p>The Dean of Students office provides support for students dealing
+with serious or emergency situations after 5 p.m. in which an immediate
+response is needed and which cannot wait until the next business day.
+Faculty or staff who are concerned about a student’s welfare should feel
+free to call the Dean on Call at (812) 856-7774. This number is not to
+be given to students or families but is for internal campus use only. If
+someone is in immediate danger or experiencing an emergency, call
+911.</p>
+<p><strong>Boost.</strong></p>
+<p>Indiana University has developed an award-winning smartphone app to
+help students stay on top of their schoolwork in Canvas. The app is
+called “Boost,” it is available for free to all IU students, and it
+integrates with Canvas to provide reminders about deadlines and other
+helpful notifications. For more information, see
+https://kb.iu.edu/d/atud.</p>
+<p><strong>Counseling and Psychological Services.</strong></p>
+<p>CAPS has expanded their services. For information about the variety
+of services offered to students by CAPS visit:
+http://healthcenter.indiana.edu/counseling/index.shtml.</p>
+<p><strong>Disability Services for Students (DSS).</strong></p>
+<p>The process to establish accommodations for a student with a
+disability is a responsibility shared by the student and the DSS Office.
+Only DSS approved accommodations should be utilized in the classroom.
+After the student has met with DSS, it is the student’s responsibility
+to share their accommodations with the faculty member. For information
+about support services or accommodations available to students with
+disabilities and for the procedures to be followed by students and
+instructors, please visit:
+https://studentaffairs.indiana.edu/disability-services-students/.</p>
+<p><strong>Reporting Conduct and Student Wellness Concerns.</strong></p>
+<p>All members of the IU community including faculty and staff may
+report student conduct and wellness concerns to the Division of Student
+Affairs using an online form located at
+https://studentaffairs.indiana.edu/dean-students/student-concern/index.shtml.</p>
+<p><strong>Students needing additional financial or other
+assistance.</strong></p>
+<p>The Student Advocates Office (SAO) can help students work through
+personal and academic problems as well as financial difficulties and
+concerns. SAO also assists students working through grade appeals and
+withdrawals from all classes. SAO also has emergency funds for IU
+students experiencing emergency financial crisis
+https://studentaffairs.indiana.edu/student- advocates/.</p>
+<p><strong>Disruptive Students.</strong></p>
+<p>If instructors are confronted by threatening behaviors from students
+their first obligation is to insure the immediate safety of the
+classroom. When in doubt, call IU Police at 9-911 from any campus phone
+or call (812) 855-4111 from off-campus for immediate or emergency
+situations. You may also contact the Dean of Students Office at (812)
+855-8188. For additional guidance in dealing with difficult student
+situations: https://ufc.iu.edu/doc/policies/disruptive-students.pdf.</p>
+<p><strong>Academic Misconduct.</strong></p>
+<p>If you suspect that a student has cheated, plagiarized or otherwise
+committed academic misconduct, refer to the Code of Student Rights,
+Responsibilities and Conduct: http://studentcode.iu.edu/.</p>
+<p><strong>Sexual Misconduct.</strong></p>
+<p>As your instructor, one of my responsibilities is to create a
+positive learning environment for all students. Title IX and IU’s Sexual
+Misconduct Policy prohibit sexual misconduct in any form, including
+sexual harassment, sexual assault, stalking, and dating and domestic
+violence. If you have experienced sexual misconduct, or know someone who
+has, the University can help.</p>
+<p>If you are seeking help and would like to speak to someone
+confidentially, you can make an appointment with:</p>
+<ul>
+<li><p>The Sexual Assault Crisis Services (SACS) at (812) 855-8900
+(counseling services)</p></li>
+<li><p>Confidential Victim Advocates (CVA) at (812) 856-2469 (advocacy
+and advice services)</p></li>
+<li><p>IU Health Center at (812) 855-4011 (health and medical
+services)</p></li>
+</ul>
+<p>It is also important that you know that Title IX and University
+policy require me to share any information brought to my attention about
+potential sexual misconduct, with the campus Deputy Title IX Coordinator
+or IU’s Title IX Coordinator. In that event, those individuals will work
+to ensure that appropriate measures are taken and resources are made
+available. Protecting student privacy is of utmost concern, and
+information will only be shared with those that need to know to ensure
+the University can respond and assist. I encourage you to visit
+stopsexualviolence.iu.edu to learn more.</p>
