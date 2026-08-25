@@ -139,10 +139,11 @@ Day     | Lecture Topic              | Assignment Due
 --------|----------------------------|----------------
 Aug. 25 | [Introduction](https://docs.google.com/presentation/d/13jmEAwqD7naNAj0c2IsF0tDhgMyQH-tBW9sZeRgzBt8/edit?usp=sharing)               |
 Aug. 27 | [From Lvar to x86](https://docs.google.com/presentation/d/1KUlWTAvdcKtZNOST9ITpmiOe34lD2DFsycH5oT2oMuU/edit?usp=sharing) |
-
-<!-- Sep. 1 | Example Compilation from Lvar to x86 in [Racket](./example-var-73.md) and [Python](./python-var-73.md) |
+Sep. 1  | Example Compilation from Lvar to x86 in [Racket](./example-var-73.md) and [Python](./python-var-73.md) |
 Sep. 3 | [Register Allocation, Introduction and Liveness](https://docs.google.com/presentation/d/1jL4M6G6DDnfqOPsCab9_6k7PcV_wRBd4p9Xn2LzobOE/edit?usp=sharing) |
-Sep. 8 | [Register Allocation: graph coloring](https://docs.google.com/presentation/d/1qPKUGZnqh6ggfP5_emHVJhSTyPRI0iD02jRTdB9mbwo/edit?usp=sharing) | Integers and Variables, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1913) or [Python](https://autograder.luddy.indiana.edu/web/project/1912) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/1950) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/1949))
+Sep. 8 | [Register Allocation: graph coloring](https://docs.google.com/presentation/d/1qPKUGZnqh6ggfP5_emHVJhSTyPRI0iD02jRTdB9mbwo/edit?usp=sharing) | Integers and Variables due, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2518) or [Python](https://autograder.luddy.indiana.edu/web/project/2517) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2528) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2523))
+
+<!-- 
 Sep. 10 | Code Review: Integers and Variables
 Sep. 15 | [L_If language, type checking, and x86_If](https://docs.google.com/presentation/d/1ZJWJN8mAPS3NpTBkbkY8xauZtIGbZdCwTovtN1a4gUo/edit?usp=sharing) | Integers and Variables, late deadline
 Sep. 17 | [Conditionals and Explicate Control](https://docs.google.com/presentation/d/1OALjNzmyLNt_Yg3eV_xjLx7ZxQ_8q2fLLi0I9nJjX9I/edit?usp=sharing),  [Conditionals: Select Instr., Reg. Alloc., Opt. Jumps](https://docs.google.com/presentation/d/1Zcq1OpvmiMcHDkSZ0qjF2mdYNaov0t5R4qF0h66ryV8/edit?usp=sharing)
