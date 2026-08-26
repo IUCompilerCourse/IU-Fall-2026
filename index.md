@@ -51,7 +51,7 @@ github:
 **Office Hours**
 
 * Jeremy Siek (jsiek): Luddy 3016 or 3014, Tuesdays 10am-11am, Thursdays 1-2pm
-* Emeka Nkurumeh (emnkuru): TBD
+* Emeka Nkurumeh (emnkuru): Luddy 3014, Mondays 3pm-4pm, Wednesdays 3pm-4pm
 
 
 **Topics:**
