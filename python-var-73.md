@@ -1,18 +1,43 @@
 # source program: eg73
 
+    z = 5
+    
     x = (-(input_int()) + input_int())
+    
     y = (x + x)
     print(((x + 42) - x))
+
+
+rco((-(input_int()) + input_int()), need_atm=false)
+  * rco( -(input_int()), need_atm=true)
+     * rco(input_int(), need_atm=true) 
+        => tmp.0 and [(tmp.0, input_int())]
+     generate tmp.1
+     return tmp.1  
+         and  [(tmp.0, input_int()), (tmp.1, - tmp.0)]
+  * rco( input_int(), need_atm=true)
+     return tmp.2 and [(tmp.2, input_int())]
+  (tmp.1 + tmp2) and 
+    [(tmp.0, input_int()), 
+      (tmp.1, - tmp.0),
+      (tmp.2, input_int())]
 
 # remove_complex_operands
 
     tmp.0 = input_int()
+    
     tmp.1 = -(tmp.0)
+    
     tmp.2 = input_int()
+    
     x = (tmp.1 + tmp.2)
+    
     y = (x + x)
+    
     tmp.3 = (x + 42)
+    
     tmp.4 = (tmp.3 - x)
+    
     print(tmp.4)
 
 # select_instructions
@@ -42,7 +67,9 @@
     _main:
         callq _read_int
         movq %rax, -32(%rbp)
+        
         movq -32(%rbp), -56(%rbp)
+        
         negq -56(%rbp)
         callq _read_int
         movq %rax, -48(%rbp)
