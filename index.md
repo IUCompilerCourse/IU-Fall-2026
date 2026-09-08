@@ -90,7 +90,7 @@ won't fail the class because your internet went out.
 **Assignments:**
 
 Organize into teams of 2-4 students. Assignments will be due bi-weekly
-on Mondays at 11:59pm. Teams that include one or more graduate
+on Tuesdays at 11:59pm. Teams that include one or more graduate
 students are required to complete one challenge exercise per
 assignment.
 
