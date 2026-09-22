@@ -144,17 +144,20 @@ Sep. 3 | [Register Allocation, Introduction and Liveness](https://docs.google.co
 Sep. 8 | [Register Allocation: graph coloring](https://docs.google.com/presentation/d/1qPKUGZnqh6ggfP5_emHVJhSTyPRI0iD02jRTdB9mbwo/edit?usp=sharing) | Integers and Variables due, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2518) or [Python](https://autograder.luddy.indiana.edu/web/project/2517) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2528) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2523))
 Sep. 10 | Code Review: Integers and Variables
 Sep. 15 | [L_If language, type checking, and x86_If](https://docs.google.com/presentation/d/1ZJWJN8mAPS3NpTBkbkY8xauZtIGbZdCwTovtN1a4gUo/edit?usp=sharing) | Integers and Variables, late deadline
-Sep. 17 | [Conditionals and Explicate Control](https://docs.google.com/presentation/d/1OALjNzmyLNt_Yg3eV_xjLx7ZxQ_8q2fLLi0I9nJjX9I/edit?usp=sharing),  [Conditionals: Select Instr., Reg. Alloc., Opt. Jumps](https://docs.google.com/presentation/d/1Zcq1OpvmiMcHDkSZ0qjF2mdYNaov0t5R4qF0h66ryV8/edit?usp=sharing)
-Sep. 22 | [Loops and Dataflow Analysis](https://docs.google.com/presentation/d/1RPT6wjE_MhMDPMet0nee5dv7WzaHD52shwSpUE84edM/edit?usp=sharing) | Register Allocation, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2520) or [Python](https://autograder.luddy.indiana.edu/web/project/2519) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2524) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2525))
+Sep. 17 | No class
+Sep. 22 | [Conditionals and Explicate Control](https://docs.google.com/presentation/d/1OALjNzmyLNt_Yg3eV_xjLx7ZxQ_8q2fLLi0I9nJjX9I/edit?usp=sharing)
+Sep. 24 | [Conditionals: Select Instr., Reg. Alloc., Opt. Jumps](https://docs.google.com/presentation/d/1Zcq1OpvmiMcHDkSZ0qjF2mdYNaov0t5R4qF0h66ryV8/edit?usp=sharing) | Register Allocation, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2520) or [Python](https://autograder.luddy.indiana.edu/web/project/2519) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2524) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2525))
+Sep. 29 | Code Review: Register Allocation
+Oct. 1 | [Loops and Dataflow Analysis](https://docs.google.com/presentation/d/1RPT6wjE_MhMDPMet0nee5dv7WzaHD52shwSpUE84edM/edit?usp=sharing) | Register Allocation, late deadline
+Oct. 6  | [Loops: RCO, Explicate, Challenge](https://docs.google.com/presentation/d/18cN5P4pEuDds5U40Hqa6WDP-LdoyYBg2RCRML37QL5k/edit?usp=sharing)
+Oct. 8 | [Tuples and Garbage Collection](https://docs.google.com/presentation/d/1LTyqurU5c1MfzBJAjuuLJKZYAYqyjLggaZn-MIV4ocg/edit?usp=sharing) | Booleans and Conditionals, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2513) or [Python](https://autograder.luddy.indiana.edu/web/project/2512) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2527) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2526))
 
 <!-- 
-Sep. 24 | Code Review: Register Allocation
-Sep. 29 | [Loops: RCO, Explicate, Challenge](https://docs.google.com/presentation/d/18cN5P4pEuDds5U40Hqa6WDP-LdoyYBg2RCRML37QL5k/edit?usp=sharing) | Register Allocation, late deadline
-Oct. 1  | [Tuples and Garbage Collection](https://docs.google.com/presentation/d/1LTyqurU5c1MfzBJAjuuLJKZYAYqyjLggaZn-MIV4ocg/edit?usp=sharing)
-Oct. 6 | [Static Single Assignment](https://docs.google.com/presentation/d/1z7D52QoJ35say9kY8VuuZWlY3yZu5HxwVv_gLcdk_Jw/edit?usp=sharing) | Booleans and Conditionals, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1908) or [Python](https://autograder.luddy.indiana.edu/web/project/1907) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2048) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2047))
-Oct. 8 | Code Review: Conditionals
-Oct. 13 | [Tuples and GC, cont'd](https://docs.google.com/presentation/d/1SYAsDrtEP0aY9R18oibuZvJkhVzeHlfthjR1_Kii6nM/edit?usp=sharing) | Booleans and Conditionals, late deadline
-Oct. 15 | [Arrays, Structs, Generational GC](https://docs.google.com/presentation/d/1GHF-JTvsnJeOSBhAn9m1HHFVpRekVPO0QHSbkbg4vX8/edit?usp=sharing)
+[Static Single Assignment](https://docs.google.com/presentation/d/1z7D52QoJ35say9kY8VuuZWlY3yZu5HxwVv_gLcdk_Jw/edit?usp=sharing)
+
+Oct. 13 | Code Review: Conditionals
+Oct. 15 | [Tuples and GC, cont'd](https://docs.google.com/presentation/d/1SYAsDrtEP0aY9R18oibuZvJkhVzeHlfthjR1_Kii6nM/edit?usp=sharing) | Booleans and Conditionals, late deadline
+Oct. 20 | [Arrays, Structs, Generational GC](https://docs.google.com/presentation/d/1GHF-JTvsnJeOSBhAn9m1HHFVpRekVPO0QHSbkbg4vX8/edit?usp=sharing)
 Oct. 20 | Review for Midterm Exam | Loops, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1916) or [Python](https://autograder.luddy.indiana.edu/web/project/1904) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2054) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2055))
 Oct. 22 | **Midterm Exam** in class
 Oct. 27 | [Compiling Functions to x86](https://docs.google.com/presentation/d/12AD6drC7k9_7Ldk8yN8HWI6MBmzqfM5ec0pSP9pj_po/edit?usp=sharing) | Loops, late deadline 
