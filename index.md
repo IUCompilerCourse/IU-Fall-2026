@@ -151,7 +151,6 @@ Sep. 29 | [Loops and Dataflow Analysis](https://docs.google.com/presentation/d/1
 Oct. 1 | [Loops: RCO, Explicate, Challenge](https://docs.google.com/presentation/d/18cN5P4pEuDds5U40Hqa6WDP-LdoyYBg2RCRML37QL5k/edit?usp=sharing)
 Oct. 6  | [Tuples and Garbage Collection](https://docs.google.com/presentation/d/1LTyqurU5c1MfzBJAjuuLJKZYAYqyjLggaZn-MIV4ocg/edit?usp=sharing)  | Booleans and Conditionals, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2513) or [Python](https://autograder.luddy.indiana.edu/web/project/2512) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2527) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2526))
 Oct. 8 | [Static Single Assignment](https://docs.google.com/presentation/d/1z7D52QoJ35say9kY8VuuZWlY3yZu5HxwVv_gLcdk_Jw/edit?usp=sharing)
-
 Oct. 13 | Code Review: Conditionals
 Oct. 15 | [Tuples and GC, cont'd](https://docs.google.com/presentation/d/1SYAsDrtEP0aY9R18oibuZvJkhVzeHlfthjR1_Kii6nM/edit?usp=sharing) | Booleans and Conditionals, late deadline
 Oct. 20 | Review for Midterm Exam | Loops, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2521) or [Python](https://autograder.luddy.indiana.edu/web/project/2509) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2529) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2530))
