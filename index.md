@@ -152,26 +152,26 @@ Oct. 1 | [Loops: RCO, Explicate, Challenge](https://docs.google.com/presentation
 Oct. 6  | [Tuples and Garbage Collection](https://docs.google.com/presentation/d/1LTyqurU5c1MfzBJAjuuLJKZYAYqyjLggaZn-MIV4ocg/edit?usp=sharing)  | Booleans and Conditionals, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2513) or [Python](https://autograder.luddy.indiana.edu/web/project/2512) (see also, [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2527) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2526))
 Oct. 8 | [Static Single Assignment](https://docs.google.com/presentation/d/1z7D52QoJ35say9kY8VuuZWlY3yZu5HxwVv_gLcdk_Jw/edit?usp=sharing)
 
-<!-- 
-
-
 Oct. 13 | Code Review: Conditionals
 Oct. 15 | [Tuples and GC, cont'd](https://docs.google.com/presentation/d/1SYAsDrtEP0aY9R18oibuZvJkhVzeHlfthjR1_Kii6nM/edit?usp=sharing) | Booleans and Conditionals, late deadline
-Oct. 20 | [Arrays, Structs, Generational GC](https://docs.google.com/presentation/d/1GHF-JTvsnJeOSBhAn9m1HHFVpRekVPO0QHSbkbg4vX8/edit?usp=sharing)
-Oct. 20 | Review for Midterm Exam | Loops, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1916) or [Python](https://autograder.luddy.indiana.edu/web/project/1904) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2054) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2055))
+Oct. 20 | Review for Midterm Exam | Loops, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2521) or [Python](https://autograder.luddy.indiana.edu/web/project/2509) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2529) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2530))
 Oct. 22 | **Midterm Exam** in class
-Oct. 27 | [Compiling Functions to x86](https://docs.google.com/presentation/d/12AD6drC7k9_7Ldk8yN8HWI6MBmzqfM5ec0pSP9pj_po/edit?usp=sharing) | Loops, late deadline 
+
+<!-- 
+
+Oct. 27 | [Arrays, Structs, Generational GC](https://docs.google.com/presentation/d/1GHF-JTvsnJeOSBhAn9m1HHFVpRekVPO0QHSbkbg4vX8/edit?usp=sharing)
 Oct. 29 | Code Review: Loops
-Nov. 3  | Compiling Functions, cont'd | Tuples, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1909) or [Python](https://autograder.luddy.indiana.edu/web/project/1906) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2080) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2079))
-Nov. 5  | [Lexically Scoped Functions](https://docs.google.com/presentation/d/1C33rWgJFXUv4tvhEnxzNhsJCc0L6t1BMWDaswuCL47w/edit?usp=sharing)
-Nov. 10 | [Dynamic Typing](https://docs.google.com/presentation/d/1vhGJ54-ZBcW7GsS2nLhaqkAkFRDGdMRGk-Onv_jQYmI/edit?usp=sharing) | Tuples, late deadline
-Nov. 12 | Code Review: Tuples
-Nov. 17 | [Gradual Typing](https://docs.google.com/presentation/d/17AfL6HTSGPdiLxGOs_wSRc0i5xoLF1QYPL-A7i1U_Ag/edit?usp=sharing) | Functions, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1910) or [Python](https://autograder.luddy.indiana.edu/web/project/1905)
-Nov. 19 | [Generics](https://docs.google.com/presentation/d/1772Bs1E1XPF2duXquzGMEcjFt_a5Ssa0DgcureURfgI/edit?usp=sharing)
+Nov. 3 | [Compiling Functions to x86](https://docs.google.com/presentation/d/12AD6drC7k9_7Ldk8yN8HWI6MBmzqfM5ec0pSP9pj_po/edit?usp=sharing) | Loops, late deadline 
+
+Nov. 5  | Compiling Functions, cont'd | Tuples, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1909) or [Python](https://autograder.luddy.indiana.edu/web/project/1906) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2080) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2079))
+Nov. 10  | [Lexically Scoped Functions](https://docs.google.com/presentation/d/1C33rWgJFXUv4tvhEnxzNhsJCc0L6t1BMWDaswuCL47w/edit?usp=sharing)
+Nov. 12 | [Dynamic Typing](https://docs.google.com/presentation/d/1vhGJ54-ZBcW7GsS2nLhaqkAkFRDGdMRGk-Onv_jQYmI/edit?usp=sharing) | Tuples, late deadline
+Nov. 17 | Code Review: Tuples
+Nov. 19 | [Gradual Typing](https://docs.google.com/presentation/d/17AfL6HTSGPdiLxGOs_wSRc0i5xoLF1QYPL-A7i1U_Ag/edit?usp=sharing) | Functions, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1910) or [Python](https://autograder.luddy.indiana.edu/web/project/1905)
 Nov. 20 | | [Proposal for Final Project](./final-project-proposal.md)
 Nov. 23 - Nov. 27 | **Thanksgiving Break**
-Dec. 1 | [Objects](https://docs.google.com/presentation/d/1quAiJTiIoYNlgJka8nLl3GchhDPQdoXLK6kcEzEDGVo/edit?usp=sharing) | Functions, late deadline
-Dec. 3 | Procedure Inlining
+Dec. 1 | [Generics](https://docs.google.com/presentation/d/1772Bs1E1XPF2duXquzGMEcjFt_a5Ssa0DgcureURfgI/edit?usp=sharing)
+Dec. 3 | [Objects](https://docs.google.com/presentation/d/1quAiJTiIoYNlgJka8nLl3GchhDPQdoXLK6kcEzEDGVo/edit?usp=sharing) | Functions, late deadline
 Dec. 8 | Code Review: Functions
 Dec. 10 | Review for Final Exam
 Dec. 12 | | Final Project (no late submissions). See the canvas assignment for details.
