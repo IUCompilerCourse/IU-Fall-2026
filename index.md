@@ -24,14 +24,14 @@ as students will do a lot of programming in one of those
 languages. Prior knowledge of an assembly language helps, but is not
 required.
 
-**Textbook: Essentials of Compilation: An Incremental Approach in Racket/Python** 
+**Textbook: Essentials of Compilation: An Incremental Approach in Racket/Python**
 
 * The Racket version of the textbook for the course is available at
   the IU bookstore and from many book sellers, links to those
   [here](https://mitpress.mit.edu/9780262047760/essentials-of-compilation/).
   The PDF is also available for free
   [here](https://www.dropbox.com/s/ktdw8j0adcc44r0/book.pdf?dl=1).
-  
+
 * The Python version of the textbook for the course is available
   at the IU bookstore and from many book sellers, links to those
   [here](https://mitpress.mit.edu/9780262048248/essentials-of-compilation/).
@@ -129,7 +129,7 @@ week late with a penalty of 10%.
 **Slack Chat/Messaging:**
 
 
-  [Workspace](https://compilers-fall-2026.slack.com) 
+  [Workspace](https://compilers-fall-2026.slack.com)
     ([signup](https://join.slack.com/t/compilers-fall-2026/shared_invite/zt-47ufrjybp-zLsGdTRp0EvwrUN9jPEwrQ)
   using your iu email address).
 
@@ -153,19 +153,21 @@ Oct. 6  | [Tuples and Garbage Collection](https://docs.google.com/presentation/d
 Oct. 8 | [Static Single Assignment](https://docs.google.com/presentation/d/1z7D52QoJ35say9kY8VuuZWlY3yZu5HxwVv_gLcdk_Jw/edit?usp=sharing)
 Oct. 13 | Code Review: Conditionals
 Oct. 15 | [Tuples and GC, cont'd](https://docs.google.com/presentation/d/1SYAsDrtEP0aY9R18oibuZvJkhVzeHlfthjR1_Kii6nM/edit?usp=sharing) | Booleans and Conditionals, late deadline
-Oct. 20 | Review for Midterm Exam | Loops, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2521) or [Python](https://autograder.luddy.indiana.edu/web/project/2509) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2529) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2530))
+Oct. 20 | Review for Midterm Exam |
 Oct. 22 | **Midterm Exam** in class
-
-<!-- 
-
+Oct. 23 | | Loops, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2521) or [Python](https://autograder.luddy.indiana.edu/web/project/2509) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2529) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2530))
 Oct. 27 | [Arrays, Structs, Generational GC](https://docs.google.com/presentation/d/1GHF-JTvsnJeOSBhAn9m1HHFVpRekVPO0QHSbkbg4vX8/edit?usp=sharing)
-Oct. 29 | Code Review: Loops
-Nov. 3 | [Compiling Functions to x86](https://docs.google.com/presentation/d/12AD6drC7k9_7Ldk8yN8HWI6MBmzqfM5ec0pSP9pj_po/edit?usp=sharing) | Loops, late deadline 
-
-Nov. 5  | Compiling Functions, cont'd | Tuples, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1909) or [Python](https://autograder.luddy.indiana.edu/web/project/1906) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2080) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2079))
+Oct. 29 | [Compiling Functions to x86](https://docs.google.com/presentation/d/12AD6drC7k9_7Ldk8yN8HWI6MBmzqfM5ec0pSP9pj_po/edit?usp=sharing) |
+Oct. 30 | | Loops, late deadline
+Nov. 3 | Code Review: Loops
+Nov. 5 | Compiling Functions, cont'd |
+Nov. 6 | | Tuples, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2514) or [Python](https://autograder.luddy.indiana.edu/web/project/2511) (see also [Racket challenge](https://autograder.luddy.indiana.edu/web/project/2532) or [Python challenge](https://autograder.luddy.indiana.edu/web/project/2531))
 Nov. 10  | [Lexically Scoped Functions](https://docs.google.com/presentation/d/1C33rWgJFXUv4tvhEnxzNhsJCc0L6t1BMWDaswuCL47w/edit?usp=sharing)
-Nov. 12 | [Dynamic Typing](https://docs.google.com/presentation/d/1vhGJ54-ZBcW7GsS2nLhaqkAkFRDGdMRGk-Onv_jQYmI/edit?usp=sharing) | Tuples, late deadline
+Nov. 12 | [Dynamic Typing](https://docs.google.com/presentation/d/1vhGJ54-ZBcW7GsS2nLhaqkAkFRDGdMRGk-Onv_jQYmI/edit?usp=sharing) |
+Nov. 13 | | Tuples, late deadline
 Nov. 17 | Code Review: Tuples
+
+<!--
 Nov. 19 | [Gradual Typing](https://docs.google.com/presentation/d/17AfL6HTSGPdiLxGOs_wSRc0i5xoLF1QYPL-A7i1U_Ag/edit?usp=sharing) | Functions, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1910) or [Python](https://autograder.luddy.indiana.edu/web/project/1905)
 Nov. 20 | | [Proposal for Final Project](./final-project-proposal.md)
 Nov. 23 - Nov. 27 | **Thanksgiving Break**
@@ -185,10 +187,10 @@ Dec. 15 | **Final Exam** 12:40-2:40 pm -->
   - Midterm from 2022: [Python](./2022-python-midterm.pdf), [Python with solutions](./2022-python-midterm-soln.pdf), [Racket](./2022-racket-midterm.pdf), [Racket with solutions](./2022-racket-midterm-soln.pdf)
   - Final from 2022: [Python](./2022-python-final.pdf), [Python with solutions](./2022-python-final-soln.pdf), [Racket](./2022-racket-final.pdf), [Racket with solutions](./2022-racket-final-soln.pdf)
   - Final from 2021: [Python](./2021-python-final.pdf), [Python with solutions](./2021-python-final-soln.pdf), [Racket](./2021-racket-final.pdf), [Racket with solutions](./2021-racket-final-soln.pdf)
-  
+
 * Lecture videos recorded from the [2020 course](https://iucompilercourse.github.io/IU-P423-P523-E313-E513-Fall-2020/).
 * Github repository for the support code and test suites
-    - for [Racket](https://github.com/IUCompilerCourse/public-student-support-code) 
+    - for [Racket](https://github.com/IUCompilerCourse/public-student-support-code)
 	- for [Python](https://github.com/IUCompilerCourse/python-student-support-code)
 * [Racket Download](https://download.racket-lang.org/)
 * [Racket Documentation](https://docs.racket-lang.org/)
@@ -199,8 +201,5 @@ Dec. 15 | **Final Exam** 12:40-2:40 pm -->
 * [x86-64 Machine-Level Programming](https://www.cs.cmu.edu/~fp/courses/15411-f13/misc/asm64-handout.pdf)
 * [Intel x86 Manual](http://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-manual-325462.pdf?_ga=1.200286509.2020252148.1452195021)
 * [System V Application Binary Interface](https://software.intel.com/sites/default/files/article/402129/mpx-linux64-abi.pdf)
-* [Uniprocessor Garbage Collection Techniques](https://iu.instructure.com/courses/1735985/files/82131907/download?wrap=1) by Wilson. 
+* [Uniprocessor Garbage Collection Techniques](https://iu.instructure.com/courses/1735985/files/82131907/download?wrap=1) by Wilson.
 * [Fast and Effective Procedure Inlining](https://www.cs.indiana.edu/~dyb/pubs/inlining.pdf) by Waddell and Dybvig.
-
-
-
