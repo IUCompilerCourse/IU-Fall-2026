@@ -174,7 +174,7 @@ Dec. 3 | [Objects](https://docs.google.com/presentation/d/1quAiJTiIoYNlgJka8nLl3
 Dec. 4 | | Functions, late deadline
 Dec. 8 | Code Review: Functions
 Dec. 10 | Review for Final Exam
-Dec. 12 | | Final Project (no late submissions). See the canvas assignment for details.
+Dec. 12 | | Final Project (no late submissions). Lambda, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2522) or [Python](https://autograder.luddy.indiana.edu/web/project/2516). See the canvas assignment for details.
 Dec. 15 | **Final Exam** 12:40-2:40 pm
 
 
