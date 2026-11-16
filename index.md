@@ -166,17 +166,16 @@ Nov. 10  | [Lexically Scoped Functions](https://docs.google.com/presentation/d/1
 Nov. 12 | [Dynamic Typing](https://docs.google.com/presentation/d/1vhGJ54-ZBcW7GsS2nLhaqkAkFRDGdMRGk-Onv_jQYmI/edit?usp=sharing) |
 Nov. 13 | | Tuples, late deadline
 Nov. 17 | Code Review: Tuples
-
-<!--
-Nov. 19 | [Gradual Typing](https://docs.google.com/presentation/d/17AfL6HTSGPdiLxGOs_wSRc0i5xoLF1QYPL-A7i1U_Ag/edit?usp=sharing) | Functions, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/1910) or [Python](https://autograder.luddy.indiana.edu/web/project/1905)
-Nov. 20 | | [Proposal for Final Project](./final-project-proposal.md)
-Nov. 23 - Nov. 27 | **Thanksgiving Break**
+Nov. 19 | [Gradual Typing](https://docs.google.com/presentation/d/17AfL6HTSGPdiLxGOs_wSRc0i5xoLF1QYPL-A7i1U_Ag/edit?usp=sharing) |
+Nov. 20 | | [Proposal for Final Project](./final-project-proposal.md)<br/> Functions, submit in [Racket](https://autograder.luddy.indiana.edu/web/project/2515) or [Python](https://autograder.luddy.indiana.edu/web/project/2510)
+Nov. 22 - Nov. 29 | **Thanksgiving Break**
 Dec. 1 | [Generics](https://docs.google.com/presentation/d/1772Bs1E1XPF2duXquzGMEcjFt_a5Ssa0DgcureURfgI/edit?usp=sharing)
-Dec. 3 | [Objects](https://docs.google.com/presentation/d/1quAiJTiIoYNlgJka8nLl3GchhDPQdoXLK6kcEzEDGVo/edit?usp=sharing) | Functions, late deadline
+Dec. 3 | [Objects](https://docs.google.com/presentation/d/1quAiJTiIoYNlgJka8nLl3GchhDPQdoXLK6kcEzEDGVo/edit?usp=sharing) |
+Dec. 4 | | Functions, late deadline
 Dec. 8 | Code Review: Functions
 Dec. 10 | Review for Final Exam
 Dec. 12 | | Final Project (no late submissions). See the canvas assignment for details.
-Dec. 15 | **Final Exam** 12:40-2:40 pm -->
+Dec. 15 | **Final Exam** 12:40-2:40 pm
 
 
 
